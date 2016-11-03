@@ -2,12 +2,12 @@
 
 Objective - Build a recipe box using React.js.
 
-Requirements:
--user can see an index view where the names of all the recipes are visible
--click on the recipe name to view a list of ingredients
--user can create recipes that have names and ingredients
--user can edit recipes
--user can delete recipes
+Requirements:  
+-user can see an index view where the names of all the recipes are visible  
+-click on the recipe name to view a list of ingredients  
+-user can create recipes that have names and ingredients  
+-user can edit recipes  
+-user can delete recipes  
 -new recipes added are saved in the browser's local storage. If I refresh the page, these recipes will still be there
 
 ---------------------------------------------------------------------------
