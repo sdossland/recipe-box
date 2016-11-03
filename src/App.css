@@ -1,0 +1,128 @@
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #000;
+}
+
+h1 {
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+}
+
+#recipes {
+  border: 2px #080 solid;
+  border-radius: 10px;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-bottom: 10px;
+  background: #080;
+}
+
+.recipeTitles {
+  font-size: 26px;
+  color: #fff;
+  padding: 10px 0 0 20px;
+}
+
+.recipeTitles:hover {
+  text-decoration: underline;
+}
+
+.ingredientsList {
+  line-height: 26px;
+  padding-left: 40px;
+  background: #fff;
+}
+
+h4 {
+  padding-top: 12px;
+  font-weight: bold;
+}
+
+hr {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.addRecipeBtn {
+  margin-left: 15%;
+}
+
+.modalTitles {
+  margin-bottom: 0;
+  padding-top: 20px;
+}
+
+.newRecipeTitle, .newIngredients {
+  width: 100%;
+}
+
+.newIngredients {
+  height: 100px;
+}
+
+.closeBtn {
+  background: red;
+  margin-right: 10px;
+  border-radius: 8px;
+  border: 2px red solid;
+}
+
+.saveBtn {
+  background: green;
+  border-radius: 8px;
+  border: 2px green solid;
+}
+
+.btnRow {
+  text-align: right;
+  padding-right: 13px;
+  padding-top: 12px;
+  color: #fff;
+}
+
+.editDeleteRow {
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.blackText, .modalTitles, .newIngredients, .newRecipeTitle {
+  color: #000;
+  /* The Modal (background) */
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
