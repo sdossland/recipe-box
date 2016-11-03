@@ -1,6 +1,6 @@
 #Recipe Box - React project
 
-Objective - 
+Objective - Build a recipe box using React.js.
 
 Requirements:
 -user can see an index view where the names of all the recipes are visible
